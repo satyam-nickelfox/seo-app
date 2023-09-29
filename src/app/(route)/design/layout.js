@@ -22,10 +22,7 @@ export default function DesignLayout({ children }) {
           property="og:description"
           content="Welcome to my studio, where creativity meets functionality!"
         />
-        <meta
-          property="og:image"
-          content={`https://images.unsplash.com/photo-1617854818583-09e7f077a156?ixlib=rb-4.0.3`}
-        />
+        <meta property="og:image" content="images/design_header.jpg" />
         <meta property="og:type" content="website" />
       </head>
       <body>{children}</body>
