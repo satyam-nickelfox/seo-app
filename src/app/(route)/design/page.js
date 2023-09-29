@@ -1,28 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import DesignHeader from "public/images/design_header.jpg";
-import Head from "next/head";
 
 function Design() {
   return (
     <div>
-      <Head>
-        <title>Transforming Ideas into Reality - My Page | Design</title>
-        <meta
-          name="description"
-          content="Welcome to my studio, where creativity meets functionality! We are passionate about designing innovative and visually stunning solutions tailored to meet your unique needs. With our expert team of designers, we specialize in bringing ideas to life, ensuring every project is a masterpiece."
-          key="desc"
-        />
-         <meta property="og:title" content="Transforming Ideas into Reality - My Page | Design" />
-        <meta
-          property="og:description"
-          content="Welcome to my studio, where creativity meets functionality!"
-        />
-        <meta
-          property="og:image"
-          content="images/design_header.jpg"
-        />
-      </Head>
       <div className="bg-Solitude flex min-h-screen flex-col p-24 gap-2">
         <h1 className="text-3xl font-bold">Transforming Ideas into Reality</h1>
         <p className="mt-10">
