@@ -23,7 +23,7 @@ export default function DesignLayout({ children }) {
           content="Welcome to my studio, where creativity meets functionality!"
         />
         <meta property="og:image" content="images/design_header.jpg" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
       </head>
       <body>{children}</body>
     </html>
